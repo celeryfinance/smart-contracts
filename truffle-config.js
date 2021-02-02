@@ -30,5 +30,11 @@ module.exports = {
     solc: {
       version: "0.6.12"
     }
+  },
+  plugins: [
+    'truffle-plugin-verify'
+  ],
+  api_keys: {
+    bscscan: ''
   }
 };
